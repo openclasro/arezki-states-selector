@@ -1,6 +1,6 @@
 {
   "name": "arezki-states-selector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Arezki States Selector",
   "scripts": {
     "build": "SET NODE_ENV=production && rm -rf dist && mkdir dist && npx babel index.tsx --out-dir dist --copy-files"
@@ -10,7 +10,8 @@
   "babel": {
     "presets": [ "react", "env", "stage-2" ]
   },
-  "author": "",
+  "author": "Arezki Zaidi",
+  "homepage": "https://github.com/openclasro/arezki-states-selector",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^18.0.25",
