@@ -1,15 +1,23 @@
 {
   "name": "arezki-states-selector",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
+  "description": "Arezki States Selector",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "SET NODE_ENV=production && rm -rf dist && mkdir dist && npx babel index.tsx --out-dir dist --copy-files"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "babel": {
+    "presets": [ "react", "env", "stage-2" ]
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^18.0.25",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "react": "^18.2.0",
     "typescript": "^4.8.4"
   }
