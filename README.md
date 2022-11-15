@@ -1,7 +1,7 @@
 # Arezki States Selector
 
 ```bash
-npm install rezki-states-selector
+npm install arezki-states-selector
 ```
 
 ## Features

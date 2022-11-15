@@ -4,7 +4,6 @@ import React from 'react'
 /**
  * Component to select States
  *
- * @component
  * @param {Object} props props
  * @param {{ abbreviation: string, name: string }[]} props.states array of States
  * @param {string} props.state currently selected state (abbreviation)
